@@ -1,0 +1,91 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://64.media.tumblr.com/e4bab1fa035b115a3fd24e4ded7d7d13/7cb53731b48ef465-2b/s2048x3072/9cceecc7bec60a76af5f08ccb5e427c478dff83e.pnj');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#calculator {
+    margin: 50px;
+    z-index: 2;
+    background-image: url('https://64.media.tumblr.com/ad24a031c3c139e2908f69871f53e74f/c504fe5724034fd4-ad/s2048x3072/bfc2240d57b9f181276465c6e9eb63729c6d433a.pnj');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+    max-width: 500px;
+    max-height: 850px;
+    overflow: hidden;
+    border: 10px white solid;
+    box-shadow: 0px 3px 15px #5A9CB5;
+}
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: #FFFBB1;
+    color: #113F67;
+}
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px white solid;
+    background-color: #FDC3A1;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px #ACBAC4;
+}
+    button:hover {
+        background-color: white;
+        color: #FAAC68;
+    }
+    button:active {
+        background-color: #91C6BC;
+        color: navajowhite;
+    }
+
+.operator-btn {
+    background-color: #A5C89E;
+}
+    .operator-btn:hover {
+        background-color: #9BC264;
+        color: #134686;
+    }
+.operator-btn:active {
+    background-color: hsl(35, 100%, 76%);
+}
+input::placeholder {
+    font-size: 40px;
+    color: #F7DB91;
+}
+.delete {
+    font-size: 200%;
+    background-color: #A5C89E;
+}
+    .delete:hover {
+        background-color: #ED3F27;
+        color: white;
+    }
+h1, p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
